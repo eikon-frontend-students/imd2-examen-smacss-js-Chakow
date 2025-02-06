@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding: 0px 52px 0px 53px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--dark-blue, #005564);
+  margin-bottom: 60px;
+  transition: 0.2s;
+  h1 {
+    color: var(--white, #fff);
+    text-align: center;
+    line-height: 120px;
+  }
+}
+.header.is-active {
+  background: var(--yellow, #fce757);
+  h1 {
+    color: var(--dark-blue, #005564);
+  }
+}
